@@ -17,7 +17,15 @@ class Admin extends CI_Controller {
 		$this->load->view('navigasi/sidebar');
 		$this->load->view('menu/montir');
 	    $this->load->view('navigasi/footer');
-    }
+	}
+	
+	// function bengkel()
+    // {
+    //     $this->load->view('navigasi/header');
+	// 	$this->load->view('navigasi/sidebar');
+	// 	$this->load->view('menu/bengkel');
+	//     $this->load->view('navigasi/footer');
+    // }
 }
 
     
