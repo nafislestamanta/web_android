@@ -6,10 +6,7 @@
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
-<<<<<<< HEAD
     <string name="mobil_dan_sopir">Mobil dan Sopir</string>
-    <string name="mobil">Mobil</string>
-=======
     <string name="title_activity_sidebar">Sidebar</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
@@ -23,5 +20,6 @@
     <string name="menu_slideshow">Slideshow</string>
 
     <string name="home_second">Home Second</string>
->>>>>>> f5349d9ffc554675b2c3ce7bc16e970a32ed9d28
+    <string name="mobil">Mobil</string>
+    >>>>>>> f5349d9ffc554675b2c3ce7bc16e970a32ed9d28
 </resources>

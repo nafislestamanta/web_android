@@ -7,4 +7,5 @@
     <color name="whiteTextColor">#fff</color>
     <color name="whiteTransparent">#80ffffff</color>
     <color name="primaryTextColor">#00a5ff</color>
+    <color name="blackTextColor">#000000</color>
 </resources>
