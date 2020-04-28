@@ -35,9 +35,8 @@
 							    <tr><td>WARNA MOBIL</td><td><?php echo $WARNA_MOBIL; ?></td></tr>
 							    <tr><td>BENSIN MOBIL</td><td><?php echo $BENSIN_MOBIL; ?></td></tr>
 							    <tr><td>PLAT NO MOBIL</td><td><?php echo $PLAT_NO_MOBIL; ?></td></tr>
-                                <tr><td>FASILITAS</td><td><?php foreach ($FASILITAS as $row) {
-                                    echo $row->FASILITAS."&nbsp,&nbsp;";
-                                } ?></td></tr>
+                                <tr><td>FASILITAS</td><td><?php if ($FASILITAS) { foreach ($FASILITAS as $row) {
+                                    echo $row->FASILITAS."&nbsp;"; } } else echo "-"; ?> </td></tr>
                                 <tr><td>STATUS SEWA</td><td><?php if ($STATUS_SEWA==1) echo "Disewa"; else echo "Tidak Disewa"; ?></td></tr>
 							    <tr><td>STATUS MOBIL</td><td><?php if ($STATUS_MOBIL==1) echo "Tersedia"; else echo "Tidak Tersedia"; ?></td></tr>
 							    <tr><td>CREATED MOBIL</td><td><?php echo $CREATED_MOBIL; ?></td></tr>

@@ -153,7 +153,8 @@ scratch. This page gets rid of all links and provides the needed markup only.
         <li><a href="<?php echo site_url('transaksi/proses_list');?>"><i class="fa fa-area-chart"></i> <span>Proses Peminjaman</span></a></li>
         <li><a href="<?php echo site_url('transaksi/selesai_list');?>"><i class="fa fa-check"></i> <span>Transaksi Selesai</span></a></li>
     <!--     <li><a href="<?php echo site_url('users');?>"><i class="fa fa-area-chart"></i> <span>Denda</span></a></li>   -->             
-        <li><a href="<?php echo site_url('users');?>"><i class="fa fa-user"></i> <span>Users</span></a></li>               
+        <li><a href="<?php echo site_url('users');?>"><i class="fa fa-user"></i> <span>Users</span></a></li>    
+        <li><a href="<?php echo site_url('supir');?>"><i class="fa fa-user"></i> <span>Supir</span></a></li>           
 <!--         <li class="treeview">
           <a href="#"><i class="fa fa-edit"></i> <span>Coustomers</span>
             <span class="pull-right-container">

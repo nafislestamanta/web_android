@@ -98,10 +98,13 @@ class M_mobil_admin extends CI_Model
         foreach ($data["fasilitas"] as $key => $value) {
             $data["fasilitas"][$key]["ID_MOBIL"]=$id;
         }
+
+        if ($data["fasilitas"]) {
+            $this->db->insert_batch($this->table_fasilitas, $data["fasilitas"]);
+        }
         
-        $data["photo"]["ID_MOBIL"]=$id;
-        
-        $this->db->insert_batch($this->table_fasilitas, $data["fasilitas"]);
+        if ($data["photo"]) {}
+        $data["photo"]["ID_MOBIL"]=$id;    
         $this->db->insert($this->table_gallery, $data['photo']);
     }
 
