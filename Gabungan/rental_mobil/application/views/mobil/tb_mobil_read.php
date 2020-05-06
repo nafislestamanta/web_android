@@ -4,12 +4,7 @@
         <!-- Content Header (Page header) -->
         <section class="content-header">
             <h1>Halaman Mobil <small>form data mobil</small></h1>
-            <ol class="breadcrumb">
-                <li>
-                    <a href="#"><i class="fa fa-dashboard"></i> Level</a>
-                </li>
-                <li class="active">Here</li>
-            </ol>
+           
         </section><!-- Main content -->
         <section class="content">
             <div class="row">
@@ -33,7 +28,7 @@
 							    <tr><td>KAPASITAS MOBIL</td><td><?php echo $KAPASITAS_MOBIL; ?> Orang</td></tr>
 							    <tr><td>HARGA MOBIL</td><td>Rp. <?php echo number_format($HARGA_MOBIL) ?></td></tr>
 							    <tr><td>WARNA MOBIL</td><td><?php echo $WARNA_MOBIL; ?></td></tr>
-							    <tr><td>BENSIN MOBIL</td><td><?php echo $BENSIN_MOBIL; ?></td></tr>
+							    <tr><td>TRANSMISI MOBIL</td><td><?php echo $BENSIN_MOBIL; ?></td></tr>
 							    <tr><td>PLAT NO MOBIL</td><td><?php echo $PLAT_NO_MOBIL; ?></td></tr>
                                 <tr><td>FASILITAS</td><td><?php if ($FASILITAS) { foreach ($FASILITAS as $row) {
                                     echo $row->FASILITAS."&nbsp;"; } } else echo "-"; ?> </td></tr>

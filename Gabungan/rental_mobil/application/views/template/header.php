@@ -53,7 +53,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
     <!-- Logo -->
     <a href="<?php echo base_url();?>" class="logo">
       <!-- mini logo for sidebar mini 50x50 pixels -->
-      <span class="logo-mini"><b>A</b>LT</span>
+      <span class="logo-mini"><b>S</b>RM</span>
       <!-- logo for regular state and mobile devices -->
       <span class="logo-lg"><b>Sistem</b> Rental Mobil</span>
     </a>
@@ -78,18 +78,18 @@ scratch. This page gets rid of all links and provides the needed markup only.
             <!-- Menu Toggle Button -->
             <a href="#" class="dropdown-toggle" data-toggle="dropdown">
               <!-- The user image in the navbar-->
-              <img src="<?php echo base_url('/upload/avatars/'.$this->session->userdata('PHOTO'));?>" class="user-image" alt="User Image">
+              <img src="<?php echo base_url('/upload/avatars/car.png'.$this->session->userdata('PHOTO'));?>" class="user-image" alt="User Image">
               <!-- hidden-xs hides the username on small devices so only the image appears. -->
-              <span class="hidden-xs"><?php echo $this->session->userdata("NAME");?></span>
+              <span class="hidden-xs"><?php echo $this->session->userdata('USERNAME');?></span>
             </a>
             <ul class="dropdown-menu">
               <!-- The user image in the menu -->
               <li class="user-header">
-                <img src="<?php echo base_url('/upload/avatars/'.$this->session->userdata('PHOTO'));?>" class="img-circle" alt="User Image">
+                <img src="<?php echo base_url('/upload/avatars/car.png'.$this->session->userdata('PHOTO'));?>" class="img-circle" alt="User Image">
 
                 <p>
                   <?php echo $this->session->userdata("NAME");?> - Web Developer
-                  <small>Member since Nov. 2012</small>
+                  <small>Member since Nov. 2020</small>
                 </p>
               </li>
               <!-- Menu Body -->
@@ -106,9 +106,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
             </ul>
           </li>
           <!-- Control Sidebar Toggle Button -->
-          <li>
-            <a href="#" data-toggle="control-sidebar"><i class="fa fa-gears"></i></a>
-          </li>
+        
         </ul>
       </div>
     </nav>
@@ -122,12 +120,12 @@ scratch. This page gets rid of all links and provides the needed markup only.
       <!-- Sidebar user panel (optional) -->
       <div class="user-panel">
         <div class="pull-left image">
-          <img src="<?php echo base_url('/upload/avatars/'.$this->session->userdata('PHOTO'));?>" class="img-circle" alt="User Image">
+          <img src="<?php echo base_url('/upload/avatars/car.png'.$this->session->userdata('PHOTO'));?>" class="img-circle" alt="User Image">
         </div>
         <div class="pull-left info">
-          <p><?php echo $this->session->userdata("NAME");?></p>
+          <p><?php echo $this->session->userdata('username');?></p>
           <!-- Status -->
-          <a href="#"><i class="fa fa-circle text-success"></i> Online</a>
+          <i class="fa fa-circle text-success"></i> <small>Online</small> 
         </div>
       </div>
 

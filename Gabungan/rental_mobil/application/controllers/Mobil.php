@@ -13,7 +13,8 @@ class Mobil extends CI_Controller
         $this->load->model('M_fasilitas_mobil_admin');
         $this->load->library('form_validation');        
         $this->load->library('upload');
-    	$this->load->library('datatables');
+        $this->load->library('datatables');
+       $this->load->library('session');
     }
 
     public function index()

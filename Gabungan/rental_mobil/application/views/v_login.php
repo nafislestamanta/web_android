@@ -47,19 +47,24 @@
                                     </div>
                                 </div>
 
-
-                                <div class="form-group">
+                               
+                                <!-- <div class="form-group">
                                     <div class="col-xs-12">
                                         <label class="css-input switch switch-sm switch-primary" style="color:white">
                                             <input type="checkbox" id="login-remember-me" name="login-remember-me" style="color:white"><span></span> Remember Me?
                                         </label>
                                     </div>
-                                </div>
+                                </div> -->
                                 <div class="form-group">
                                     <div class="col-xs-12 col-sm-6 col-md-4">
                                         <center><button class="btn btn-block btn-primary" type="submit"><i class="si si-login pull-right" style="color:white"></i> Log in</button></center>
                                     </div>
                                 </div>
+                                <br>
+                                <?php if(isset($pesan)){
+                                    echo $pesan;
+                                }
+                                ?>
                             </form>
                             <!-- END Login Form -->
                         </div>

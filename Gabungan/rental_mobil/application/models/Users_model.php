@@ -50,11 +50,11 @@ class Users_model extends CI_Model
 	$this->db->or_like('ALAMAT', $q);
 	$this->db->or_like('PASSWORD', $q);
 	$this->db->or_like('PHOTO', $q);
-	$this->db->or_like('ACTIVATED', $q);
-	$this->db->or_like('CREATED', $q);
+	// $this->db->or_like('ACTIVATED', $q);
+	// $this->db->or_like('CREATED', $q);
 	$this->db->or_like('GROUP_USER', $q);
-	$this->db->or_like('LAST_LOGIN', $q);
-	$this->db->or_like('LAST_UPDATE', $q);
+	// $this->db->or_like('LAST_LOGIN', $q);
+	// $this->db->or_like('LAST_UPDATE', $q);
 	$this->db->from($this->table);
         return $this->db->count_all_results();
     }
@@ -71,11 +71,11 @@ class Users_model extends CI_Model
 	$this->db->or_like('ALAMAT', $q);
 	$this->db->or_like('PASSWORD', $q);
 	$this->db->or_like('PHOTO', $q);
-	$this->db->or_like('ACTIVATED', $q);
-	$this->db->or_like('CREATED', $q);
+	// $this->db->or_like('ACTIVATED', $q);
+	// $this->db->or_like('CREATED', $q);
 	$this->db->or_like('GROUP_USER', $q);
-	$this->db->or_like('LAST_LOGIN', $q);
-	$this->db->or_like('LAST_UPDATE', $q);
+	// $this->db->or_like('LAST_LOGIN', $q);
+	// $this->db->or_like('LAST_UPDATE', $q);
 	$this->db->limit($limit, $start);
         return $this->db->get($this->table)->result();
     }

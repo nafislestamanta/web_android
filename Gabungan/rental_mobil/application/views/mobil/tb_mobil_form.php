@@ -4,12 +4,7 @@
         <!-- Content Header (Page header) -->
         <section class="content-header">
             <h1>Halaman Mobil <small>form data mobil</small></h1>
-            <ol class="breadcrumb">
-                <li>
-                    <a href="#"><i class="fa fa-dashboard"></i> Level</a>
-                </li>
-                <li class="active">Here</li>
-            </ol>
+           
         </section><!-- Main content -->
         <section class="content">
             <div class="row">
@@ -54,7 +49,7 @@
                                 <input type="text" class="form-control" name="WARNA_MOBIL" id="WARNA_MOBIL" placeholder="WARNA MOBIL" value="<?php echo $WARNA_MOBIL; ?>" />
                             </div>
                             <div class="form-group">
-                                <label for="int">BENSIN MOBIL <?php echo form_error('BENSIN_MOBIL') ?></label>
+                                <label for="int">TRANSMISI MOBIL <?php echo form_error('BENSIN_MOBIL') ?></label>
                                 <select class="form-control" name="BENSIN_MOBIL" id="BENSIN_MOBIL">
                                     <option value="1" <?php if ($BENSIN_MOBIL==1) echo "selected" ?> >Autometic</option>
                                     <option value="2" <?php if ($BENSIN_MOBIL==2) echo "selected" ?> >Manual</option> 
