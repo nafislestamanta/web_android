@@ -86,12 +86,10 @@ scratch. This page gets rid of all links and provides the needed markup only.
               <!-- The user image in the menu -->
               <li class="user-header">
                 <img src="<?php echo base_url('/upload/avatars/car.png'.$this->session->userdata('PHOTO'));?>" class="img-circle" alt="User Image">
-
                 <p>
-                  <?php echo $this->session->userdata("NAME");?> - Web Developer
-                  <small>Member since Nov. 2020</small>
+                  <?php echo $this->session->userdata("NAME");?> Titik Rosanti
                 </p>
-              </li>
+                <a href="<?php echo site_url('MyProfile');?>" class="btn btn-default btn-flat">My Profile </a>
               <!-- Menu Body -->
               
                 <!-- /.row -->
@@ -152,7 +150,8 @@ scratch. This page gets rid of all links and provides the needed markup only.
         <li><a href="<?php echo site_url('transaksi/selesai_list');?>"><i class="fa fa-check"></i> <span>Transaksi Selesai</span></a></li>
     <!--     <li><a href="<?php echo site_url('users');?>"><i class="fa fa-area-chart"></i> <span>Denda</span></a></li>   -->             
         <li><a href="<?php echo site_url('users');?>"><i class="fa fa-user"></i> <span>Users</span></a></li>    
-        <li><a href="<?php echo site_url('supir');?>"><i class="fa fa-user"></i> <span>Supir</span></a></li>           
+        <li><a href="<?php echo site_url('supir');?>"><i class="fa fa-user"></i> <span>Supir</span></a></li>  
+        <!-- <li><a href="<?php echo site_url('supir');?>"><i class="fa fa-user"></i> <span>My Profile</span></a></li>          -->
 <!--         <li class="treeview">
           <a href="#"><i class="fa fa-edit"></i> <span>Coustomers</span>
             <span class="pull-right-container">
