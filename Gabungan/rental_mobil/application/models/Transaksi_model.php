@@ -47,6 +47,7 @@ class Transaksi_model extends CI_Model
     {
         $this->db->where("STATUS_TRANSAKSI", 3);
         $this->db->order_by($this->id, $this->order);
+        $this->db->join($this->table_user,$this->table_user.".ID_USER=".$this->table.".ID_USER");
         return $this->db->get($this->table)->result();
     }
 

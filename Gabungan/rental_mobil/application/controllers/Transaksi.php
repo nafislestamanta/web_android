@@ -359,11 +359,18 @@ class Transaksi extends CI_Controller
     // }
 
      public function cetak_laporan(){
-        $transaksi = $this->Transaksi_model->get_selesai();
-        $data = array(
-            'transaksi_data' => $transaksi,
-        );
-        $this->load->view('transaksi/cetak_laporan', $data);
+        $this->load->library('dompdf_gen');
+        
+        $data['transaksi'] = $this->Transaksi_model->get_selesai('tb_transaksi');
+
+        $this->load->view('transaksi/laporan_pdf',$data);
+
+        $html = $this->output->get_output();
+
+        $this->dompdf->load_html($html);
+        $this->dompdf->render();
+        $this->dompdf->stream("laporan_transaksi.pdf", array('Attachment' =>0));
+
     }
 
 }
