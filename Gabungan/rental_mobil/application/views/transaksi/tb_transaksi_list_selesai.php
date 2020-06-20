@@ -12,7 +12,7 @@
                             <h3 class="box-title">Transaksi Selesai</h3>
                         </div>
                         <div class="col-md-12 text-right">
-                            <a href="<?php echo base_url()."index.php/transaksi/cetak_laporan" ?>"; class="btn btn-primary"><i class="fa fa-print">  Print Transaksi</i></a>
+                            <a href="<?php echo base_url('transaksi/cetak_laporan') ?>" class="btn btn-primary"><i class="fa fa-file"> Export PDF</i></a>
                         </div>
                         
                         <div class="box-body">
