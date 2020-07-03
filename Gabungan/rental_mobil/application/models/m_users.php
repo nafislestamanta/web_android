@@ -4,7 +4,7 @@
 /**
 * 
 */
-class m_users extends CI_Model
+class M_users extends CI_Model
 {
 	
 	private $table_name = "tb_users";
@@ -68,5 +68,3 @@ class m_users extends CI_Model
 	}
 
 }
-
-?>

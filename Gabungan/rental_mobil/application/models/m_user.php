@@ -3,7 +3,7 @@
 /**
 * 
 */
-class m_user extends CI_Model
+class M_user extends CI_Model
 {
 	function login($username,$password){
 		$this->db->select('USERNAME,PASSWORD,GROUP_USER');
@@ -23,6 +23,3 @@ class m_user extends CI_Model
 	}
 
 }
-
-
-?>

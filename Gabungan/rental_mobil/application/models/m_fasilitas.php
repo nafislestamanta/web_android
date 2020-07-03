@@ -4,7 +4,7 @@
 /**
 * 
 */
-class m_fasilitas extends CI_Model
+class M_fasilitas extends CI_Model
 {
 	private $table_name="tb_fasilitas";
 	private $primary="ID_FASILITAS";
@@ -44,5 +44,3 @@ class m_fasilitas extends CI_Model
 	}
 
 }
-
-?>

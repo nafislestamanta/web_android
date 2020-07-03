@@ -3,7 +3,7 @@
 /**
 * 
 */
-class login extends CI_Controller
+class Login extends CI_Controller
 {
 	
 	function __construct()
@@ -49,5 +49,3 @@ class login extends CI_Controller
 		redirect($this->index());
 	}
 }
-
-?>

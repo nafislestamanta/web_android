@@ -3,7 +3,7 @@
 /**
 * 
 */
-class m_dashboard extends CI_Model
+class M_dashboard extends CI_Model
 {
 
 	function get_data(){
@@ -12,5 +12,3 @@ class m_dashboard extends CI_Model
 	}	
 
 }
-
-?>
