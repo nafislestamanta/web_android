@@ -3,7 +3,7 @@
     <div class="content-wrapper">
         <!-- Content Header (Page header) -->
         <section class="content-header">
-            <h1>Halaman Mobil <small>form data mobil</small></h1>
+            <h1>Halaman Mobil </h1>
            
         </section><!-- Main content -->
         <section class="content">

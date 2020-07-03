@@ -1,6 +1,6 @@
 <div class="content-wrapper">
     <section class="content-header">
-        <h1>Halaman Pesanan Mobil <small>form data Pesanan Mobil</small></h1>
+        <h1>Halaman Pesanan Mobil </h1>
 
     </section>
     <section class="content">

@@ -1,7 +1,7 @@
 
 <div class="content-wrapper">
         <section class="content-header">
-            <h1>Halaman Fasilitas Mobil <small>Detail Data</small></h1>
+            <h1>Halaman Proses Peminjaman</h1>
            
         </section>
         <section class="content">
@@ -11,7 +11,7 @@
 
 
                         <div class="box-header with-border">
-                            <h3 class="box-title">Fasilitas Mobil</h3>
+                            <h3 class="box-title">Proses Peminjaman</h3>
                         </div>
                         
                         <div class="box-body">
