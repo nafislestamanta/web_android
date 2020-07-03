@@ -1,14 +1,13 @@
 -- phpMyAdmin SQL Dump
--- version 4.9.1
+-- version 5.0.2
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jun 30, 2020 at 09:51 AM
--- Server version: 10.4.8-MariaDB
--- PHP Version: 7.3.11
+-- Generation Time: Jul 03, 2020 at 06:51 AM
+-- Server version: 10.4.11-MariaDB
+-- PHP Version: 7.4.5
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
-SET AUTOCOMMIT = 0;
 START TRANSACTION;
 SET time_zone = "+00:00";
 
@@ -157,6 +156,7 @@ INSERT INTO `tb_gallery_mobil` (`ID_GALLERY`, `ID_MOBIL`, `IMAGE`) VALUES
 --
 
 CREATE TABLE `tb_history_supir` (
+  `ID_HISTORY` int(11) NOT NULL,
   `ID_SUPIR` int(11) NOT NULL,
   `TGL_SEWA` date NOT NULL,
   `TUJUAN` varchar(30) NOT NULL
@@ -340,6 +340,12 @@ ALTER TABLE `tb_gallery_mobil`
   ADD KEY `FK_RELATIONSHIP_6` (`ID_MOBIL`);
 
 --
+-- Indexes for table `tb_history_supir`
+--
+ALTER TABLE `tb_history_supir`
+  ADD PRIMARY KEY (`ID_HISTORY`);
+
+--
 -- Indexes for table `tb_mobil`
 --
 ALTER TABLE `tb_mobil`
@@ -391,6 +397,12 @@ ALTER TABLE `tb_fasilitas`
 --
 ALTER TABLE `tb_gallery_mobil`
   MODIFY `ID_GALLERY` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=46;
+
+--
+-- AUTO_INCREMENT for table `tb_history_supir`
+--
+ALTER TABLE `tb_history_supir`
+  MODIFY `ID_HISTORY` int(11) NOT NULL AUTO_INCREMENT;
 
 --
 -- AUTO_INCREMENT for table `tb_mobil`
